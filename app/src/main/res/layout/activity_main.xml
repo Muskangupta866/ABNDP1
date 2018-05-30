@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pinkbg3" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:padding="5dp"
+        android:text="Goyal Gems and Jewellery"
+        android:textColor="#cf455e"
+        android:textSize="35sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/owner_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_textview"
+        android:text="Jugal Kishor Goyal (Rinku)"
+        android:textColor="#0715cd"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/address_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/owner_textview"
+        android:drawableLeft="@drawable/ic_add_location_black_24dp"
+        android:text="B-10, Keshar Bhawan, Laxmi Narayan Puri, Outside Surajpole Gate, Jaipur-303303 (Raj.) INDIA"
+        android:textColor="#0715cd"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phone_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_textview"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:text="+91 141-2561114"
+        android:textColor="#0715cd"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_textview"
+        android:drawableLeft="@drawable/ic_mail_black_24dp"
+        android:text="jugal1980@gmail.com"
+        android:textColor="#0715cd"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="MANUFACTURER AND EXPORTER OF PRECIOUS AND SEMI-PERCIOUS STONES AND SILVER JEWELLERY"
+        android:textColor="#cf455e"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
